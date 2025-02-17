@@ -35,11 +35,11 @@ modules:
        - rm /app/bin/lib/*-macos.jar
        - rm /app/bin/lib/*-windows.jar
        - sed -i 's|^Icon=.*|Icon=space.gaiasky.GaiaSky|' gaiasky.desktop
-       - install -D gs_round_256.png /app/share/icons/hicolor/scalable/apps/${FLATPAK_ID}.png
+       - install -D gs_icon.svg /app/share/icons/hicolor/scalable/apps/${FLATPAK_ID}.svg
        - install -D gaiasky /app/bin/gaiasky
        - install -D gaiasky.desktop /app/share/applications/${FLATPAK_ID}.desktop
        - install -D space.gaiasky.GaiaSky.metainfo.xml /app/share/metainfo/${FLATPAK_ID}.metainfo.xml
     sources:
       - type: archive
         url: https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.6.6.caf73d2de/gaiasky-3.6.6.caf73d2de.flathub.r2.tar.gz
-        sha256: bab348a72fa381e498733c04035ba692e642f8d80fe0d91ec65eff6f01d5c16b
+        sha256: 013181b94f35e111d0cd6c06401701aec1e26ad55101f86a7332c9375979db58
