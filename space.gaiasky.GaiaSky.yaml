@@ -41,5 +41,5 @@ modules:
        - install -D space.gaiasky.GaiaSky.metainfo.xml /app/share/metainfo/${FLATPAK_ID}.metainfo.xml
     sources:
       - type: archive
-        url: https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.6.7.5160f2cfe/gaiasky-3.6.7.5160f2cfe.tar.gz
-        sha256: 5f348c825f0f2b3028aa01d82b79919d1262887031c9852b1de8f5cdc2c09afb
+        url: https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.6.8.1e74ed71e/gaiasky-3.6.8.1e74ed71e-flathub.tar.gz
+        sha256: 2fa4e5eedcff35432b78bab396f33f658bf8eeeea0341394241f0bebe88b54c9
