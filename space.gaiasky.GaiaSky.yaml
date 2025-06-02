@@ -42,4 +42,4 @@ modules:
     sources:
       - type: archive
         url: https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.6.8.1e74ed71e/gaiasky-3.6.8.1e74ed71e-flathub.tar.gz
-        sha256: d3ece191cca3343a0e6d4c9b0faff641e498b5cb20fcdb62202734f951a98d36
+        sha256: 2fa4e5eedcff35432b78bab396f33f658bf8eeeea0341394241f0bebe88b54c9
