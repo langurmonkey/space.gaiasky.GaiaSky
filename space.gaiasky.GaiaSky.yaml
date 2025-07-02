@@ -3,7 +3,7 @@ runtime: org.freedesktop.Platform
 runtime-version: '24.08'
 sdk: org.freedesktop.Sdk
 sdk-extensions: 
-  - org.freedesktop.Sdk.Extension.openjdk21
+  - org.freedesktop.Sdk.Extension.openjdk
 command: gaiasky
 finish-args:
   - --socket=x11
@@ -13,12 +13,10 @@ finish-args:
   - --env=PATH=/app/bin:/app/jre/bin:/usr/bin
   - --env=JAVA_HOME=/app/jre
 modules:
-  - pypi-dependencies.yaml
-
   - name: openjdk
     buildsystem: simple
     build-commands: 
-      - /usr/lib/sdk/openjdk21/install.sh
+      - /usr/lib/sdk/openjdk/install.sh
 
   - name: gaiasky
     buildsystem: simple
@@ -41,5 +39,5 @@ modules:
        - install -D space.gaiasky.GaiaSky.metainfo.xml /app/share/metainfo/${FLATPAK_ID}.metainfo.xml
     sources:
       - type: archive
-        url: https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.6.8.1e74ed71e/gaiasky-3.6.8.1e74ed71e-flathub.tar.gz
-        sha256: 2fa4e5eedcff35432b78bab396f33f658bf8eeeea0341394241f0bebe88b54c9
+        url: https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.6.9.226030b05/gaiasky-3.6.9.226030b05.tar.gz
+        sha256: 09104366b45904d2f69bbf8a3e948379f172133ff238d9eda1e2f2654a8ceede
